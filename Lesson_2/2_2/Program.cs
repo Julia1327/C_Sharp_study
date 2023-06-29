@@ -6,4 +6,18 @@
 // 16, 4 -> кратно
 
 
+void rem(int a, int b)
+{
+    if (a % b == 0)
+        Console.WriteLine("Числа кратны");
+    else
+    {
+        Console.WriteLine("Числа не кратны, остаток от деления: " + a % b);
+    }
+}
 
+
+
+int numa = int.Parse(Console.ReadLine()!);
+int numb = int.Parse(Console.ReadLine()!);
+rem(numa, numb);
