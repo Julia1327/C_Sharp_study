@@ -18,5 +18,6 @@ void Quarters(int num1)
 
 }
 
+System.Console.Write("Введите номер четверти: ");
 int num = int.Parse(Console.ReadLine()!);
 Quarters(num);
