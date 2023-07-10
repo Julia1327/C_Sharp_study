@@ -17,6 +17,7 @@ if (arr[i] != arr[Length - i - 1]) arr_2[i] = arr[i] * arr[Length - i - 1];
 else arr_2[arr_2.Length - 1] = arr[i];
 }
 return arr_2;
+}
 
 // int index = 0;
 // while (A > 0)
@@ -25,7 +26,7 @@ return arr_2;
 // index++;
 // }
 // return index;
-}
+
 void PrintArray(int[] arr)
 {
 var str = string.Join(" ", arr);
